@@ -17,11 +17,11 @@ function Translate (message) {
 	this.message = message;
 	this.translit = "";
 	
-	 this.setMessage = function () {
+	this.setMessage = function () {
 		 message = message.toLowerCase();   
         this.message = message;	 
-	 }
-	 this.newMessage = function () {
+}
+       this.newMessage = function () {
 		this.setMessage ();
             console.log(this.message);		
 }
